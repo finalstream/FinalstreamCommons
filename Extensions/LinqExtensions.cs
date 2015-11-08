@@ -6,10 +6,17 @@ namespace FinalstreamCommons.Extensions
 {
     public static class LinqExtensions
     {
-        public static IEnumerable<T> ExceptUsingJSonCompare<T>
+        /// <summary>
+        /// Json形式にシリアライズして比較したEnumerableの差分を取得します。
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="first"></param>
+        /// <param name="second"></param>
+        /// <returns></returns>
+        public static IEnumerable<T> ExceptUsingJsonCompare<T>
             (this IEnumerable<T> first, IEnumerable<T> second)
         {
-            return first.Except(second, new JSonEqualityComparer<T>());
+            return first.Except(second, new JsonEqualityComparer<T>());
         }
     }
 }

@@ -8,7 +8,7 @@ namespace FinalstreamCommons.Comparers
     ///     JSONでシリアライズした結果を比較するコンペアラーを表します。
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    public class JSonEqualityComparer<T> : IEqualityComparer<T>
+    public class JsonEqualityComparer<T> : IEqualityComparer<T>
     {
         public bool Equals(T x, T y)
         {
