@@ -2,7 +2,7 @@
 using System.Linq;
 using FinalstreamCommons.Comparers;
 
-namespace FinalstreamCommons.Extentions
+namespace FinalstreamCommons.Extensions
 {
     public static class LinqExtensions
     {

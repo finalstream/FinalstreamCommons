@@ -4,7 +4,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 using Newtonsoft.Json;
 using NLog;
 
-namespace FinalstreamCommons.Extentions
+namespace FinalstreamCommons.Extensions
 {
     public static class ObjectExtensions
     {
