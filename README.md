@@ -6,14 +6,8 @@ Windowsアプリケーション開発をサポートするライブラリです�
 
 ##主な機能
 
-###Builders
-* CommandLineBuilder(コマンドライン文字列を生成)
-
-###Utils
-* ColorUtils(反対色などを取得)
-* DateUtils(シーズン取得)
-* DialogUtils(ファイル選択、フォルダ選択ダイアログ)
-* ScreenUtils(デバイス名からディスプレイデバイス情報取得)
+##Comparers
+* JsonEqualityComparer(Jsonでシリアライズした結果を比較するコンペアラ)
 
 ###WebService
 * GoogleCustomSearchService([Googleカスタム検索エンジン](https://cse.google.co.jp/cse/?hl=ja)の結果を取得)
