@@ -10,8 +10,4 @@ Windowsアプリケーション開発をサポートするライブラリです�
 ##Comparers
 * JsonEqualityComparer(Jsonでシリアライズした結果を比較するコンペアラ)
 
-###WebService
-* GoogleCustomSearchService([Googleカスタム検索エンジン](https://cse.google.co.jp/cse/?hl=ja)の結果を取得)
-
-
 
