@@ -16,6 +16,7 @@
             <dependency id="Newtonsoft.Json" version="7.0.1" />
             <dependency id="NLog" version="4.0.1" />
             <dependency id="RestSharp" version="105.1.0" />
+            <dependency id="FinalstreamCommons.Core" version="0.0.3" />
         </dependencies>
         <tags>AppLibrary</tags>
     </metadata>
